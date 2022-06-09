@@ -1,0 +1,39 @@
+.container {
+  width: 220px;
+  height: 100%;
+  border: 2px solid black;
+}
+
+.tablo {
+  width: 210px;
+  height: 50px;
+  border: 2px solid black;
+  margin: auto;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 24px;
+  color: red;
+}
+
+.containerknopki {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.knopka {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  border: 2px solid black;
+  margin: 4px;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 24px;
+}
+/*# sourceMappingURL=main.css.map */
